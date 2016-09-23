@@ -105,7 +105,7 @@
      </a>
     </div>   
    </div>
-   <p class="render" neon-text="red"></p>
+   <span neon-text="violet">本頁渲染速度：</span><p class="render" neon-text="red"></p>
   </body>
 </html>
 
@@ -121,6 +121,6 @@
      $(window).load(function() {
          console.log("Time until everything loaded: ", Date.now()-timerStart);
          $(".dimmer").fadeOut("slow");
-         $(".render").text("本頁渲染速度：" + Date.now()-timerStart + " ms");
+         $(".render").text(Date.now()-timerStart + " ms");
      });
 </script>

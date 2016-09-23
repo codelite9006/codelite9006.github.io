@@ -1,0 +1,174 @@
+<style>
+@media print { 
+ /* All your print styles go here */
+  .non-print{display:none;}
+  #non-print{display:none;}
+  #main_tbl{visibility:visible;} 
+}
+</style>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3school.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/spinner.css">
+    <script src="js/w3data.js"></script>
+  </head>
+  <div id="spinner" class="loader" style="position:absolute; top:0; bottom:0; right:0; left:0; background:rgba(0,0,0,0.8); z-index:999; height:100%; width:100%;">
+    <div class="loader-inner pacman" style="position:absolute; top:50%; left:50%; margin-top:-50px; margin-left:-50px;">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <body>
+   <button id="non-print" class="accordion">Advertising</button>
+    <div id="non-print" class="panel">
+      <a class="non-print" href="https://www.000webhost.com/" onClick="this.href='https://www.000webhost.com/920233.html'"  target="_blank"><img src="https://www.000webhost.com/images/banners/468x60/banner6.gif" alt="Web hosting" width="468" height="60" border="0" /></a>
+  <a class="non-print" href="https://www.000webhost.com/" onClick="this.href='https://www.000webhost.com/920233.html'"  target="_blank"><img src="https://www.000webhost.com/images/banners/468x60/banner13.gif" alt="Web hosting" width="468" height="60" border="0" /></a>
+  <a class="non-print" href="https://www.000webhost.com/" onClick="this.href='https://www.000webhost.com/920233.html'"  target="_blank"><img src="https://www.000webhost.com/images/banners/600x400/banner1.gif" alt="Web hosting" width="468" height="60" border="0" /></a>
+  <p class="non-print" >
+    Hello everyone! <br>
+Today I just found this free host with:<br>
+<br>
+- 1500 MB of Disk Space<br>
+- 100 GB Bandwidth<br>
+- Your own domain hosting<br>
+- cPanel Control panel<br>
+- Website Builder<br>
+- Over 500 website templates ready for download<br>
+- Free POP3 Email Box and Webmail access<br>
+- FTP and Web based File Manager <br>
+- PHP, MySQL, Perl, CGI, Ruby. <br>
+- No Ads at all !<br>
+<br>
+Check it out Here: <a href="https://www.000webhost.com/920233.html">Bagus Bagus Free Hosting</a>
+
+  </p>
+    </div>
+    <button id="non-print" class="accordion">About</button>
+    <div id="non-print" class="panel">
+      <div id="non-print" w3-include-html="content/about.html"></div>
+    </div>
+    
+    <button id="non-print" class="accordion">Grade Infomation</button>
+    <div id="non-print" class="panel">
+      <div id="non-print" w3-include-html="content/grade_info.html"></div>
+    </div>
+    <br>
+    <br>
+</body>
+</html>
+<div w3-include-html="content/system.html"></div>
+
+<script src="js/accordion.js"></script>
+<script>
+w3IncludeHTML();
+function fnAddRow(){
+  var form = document.getElementById("modal");
+  form.style.display = "block";
+  document.getElementById("f_name").focus();
+}
+function fnSubmit(){
+  var name = document.getElementById("f_name").value;
+  var tov = parseFloat(document.getElementById("f_tov").value);
+  var gtov = fnGrade(tov,"tov");
+  var etr = parseFloat(document.getElementById("f_etr").value);
+  var getr = fnGrade(etr,"etr");
+  var gender = fnRadio("gender");
+  var race = fnRadio("race");
+  var oti1 = tov + ((etr - tov) / 4);
+  var goti1 = fnGrade(oti1,"oti1");
+  var oti2 = tov + (((etr - tov) * 2) / 4);
+  var goti2 = fnGrade(oti2,"oti2");
+  var oti3 = tov + (((etr - tov) * 3) / 4);
+  var goti3 = fnGrade(oti3,"oti3");
+  var up = etr - tov;
+  var tbl = document.getElementById("main_tbl").getElementsByTagName('tbody')[0];
+  var row_count = tbl.rows.length;
+  var row = tbl.insertRow(row_count);
+  
+  var data = [row_count+1,name,gender,race,tov,gtov,Math.round(oti1),goti1,Math.round(oti2),goti2,Math.round(oti3),goti3,etr,getr,up];
+  for(var x=0; x<15; x++){
+    var cell = row.insertCell(x);
+    cell.innerHTML = data[x];
+    cell.style.verticalAlign = "middle";
+    if(x == 1){cell.style.textAlign = "left";}
+    else{cell.style.textAlign = "center";}
+    cell.className = "w3-border";
+  }
+  fnInit();
+}
+function fnGrade(score,col){
+  var mark = 0;
+  var a = document.getElementById("a_"+col);
+  var b = document.getElementById("b_"+col)
+  var c = document.getElementById("c_"+col)
+  var d = document.getElementById("d_"+col)
+  var e = document.getElementById("e_"+col)
+  
+  if(score>=80 && score<=100) {
+    mark = "A";
+    a.innerHTML = parseInt(a.innerHTML)+1;
+  }
+  else if(score>=70 && score<=79) {
+    mark = "B";
+    b.innerHTML = parseInt(b.innerHTML)+1;
+  }
+  else if(score>=60 && score<=69) {
+    mark = "C";
+    c.innerHTML = parseInt(c.innerHTML)+1;
+  }
+  else if(score>=40 && score<=59) {
+    mark = "D";
+    d.innerHTML = parseInt(d.innerHTML)+1;
+  }
+  else if(score>=0 && score<=39) {
+    mark = "E";
+    e.innerHTML = parseInt(e.innerHTML)+1;
+  }
+  
+  var tbl = document.getElementById("main_tbl").getElementsByTagName('tbody')[0];
+  var row_count = tbl.rows.length;
+  
+  document.getElementById("tp_"+col).innerHTML = parseInt(a.innerHTML) + parseInt(b.innerHTML) + parseInt(c.innerHTML);
+  document.getElementById("tpp_"+col).innerHTML = (parseInt(document.getElementById("tp_"+col).innerHTML) / (row_count+1) * 100).toFixed(2).toString() + "%";
+  document.getElementById("tf_"+col).innerHTML = parseInt(d.innerHTML) + parseInt(e.innerHTML);
+  
+  var total_murid = (row_count+1);
+  var ans = ((1*parseInt(a.innerHTML))+(2*parseInt(b.innerHTML))+(3*parseInt(c.innerHTML))+(4*parseInt(d.innerHTML))+(5*parseInt(e.innerHTML)))/total_murid;
+  document.getElementById("gpmp_"+col).innerHTML = ans.toFixed(2).toString();
+  return mark;
+}
+function fnRadio(name){
+  var radios = document.getElementsByName(''+name);
+  for (var i = 0, length = radios.length; i < length; i++) {
+      if (radios[i].checked) {
+          return radios[i].value;
+          break;
+      }
+  }
+}
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+function fnInit(){
+  document.getElementById("modal").style.display = "none";
+  document.getElementById("f_name").value = "";
+  document.getElementById("f_tov").value = "";
+  document.getElementById("f_etr").value = "";
+  document.getElementsByName('gender')[0].checked = true;
+  document.getElementsByName('race')[0].checked = true;
+}
+window.onload = function () {
+  setTimeout(function(){ document.getElementById("spinner").style.display="none"}, 3000);
+}
+</script>

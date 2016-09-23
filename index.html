@@ -1,5 +1,8 @@
 <html>
  <head>
+  <script type="text/javascript">
+      var timerStart = Date.now();
+  </script>
   <script type="text/javascript">/*tag*/PAGE_SPEED_TIME = [new Date().getTime()];</script>
   <meta charset="utf-8">
   <title>林偉雄個人履歷</title>
@@ -103,7 +106,6 @@
     </div>   
    </div>
   </body>
-  <script src="https://codelite9006.github.io/js/page_speed_v2.js"></script>
 </html>
 
 <style>
@@ -117,4 +119,12 @@
    $('.dimmer').fadeOut("slow");
   }, 2000);
  });
+</script>
+<script type="text/javascript">
+     $(document).ready(function() {
+         console.log("Time until DOMready: ", Date.now()-timerStart);
+     });
+     $(window).load(function() {
+         console.log("Time until everything loaded: ", Date.now()-timerStart);
+     });
 </script>

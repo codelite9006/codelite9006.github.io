@@ -121,6 +121,6 @@
      $(window).load(function() {
          console.log("Time until everything loaded: ", Date.now()-timerStart);
          $(".dimmer").fadeOut("slow");
-         $(".render").val(Date.now()-timerStart);
+         $(".render").text(Date.now()-timerStart);
      });
 </script>

@@ -711,3 +711,11 @@ button, select, option{
             animation: spin 1s infinite linear;
          }
 }
+
+@media only screen 
+  and (min-device-width: 1px)
+  and (max-device-width: 300px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  	*{display:none;}
+  	body{background:red;}
+  }

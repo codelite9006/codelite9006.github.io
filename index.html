@@ -112,12 +112,13 @@
  .dimmer{position:fixed; top:0; left:0; bottom:0; right:0; background:rgba(0,0,0,.6); z-index:100;}
  html, body{paddding:0; margin:0; display:block; overflow-x:hidden;}
 </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js"></script>
 <script type="text/javascript">
      $(document).ready(function() {
          console.log("Time until DOMready: ", Date.now()-timerStart);
      });
      $(window).load(function() {
          console.log("Time until everything loaded: ", Date.now()-timerStart);
+         $(".dimmer").fadeout("slow");
      });
 </script>

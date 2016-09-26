@@ -1,4 +1,4 @@
-<html manifest="index.appcache">
+<html>
     <head>
         <script type="text/javascript">
             var timerStart = Date.now();
@@ -51,91 +51,71 @@
     <body neon="body">
         <span neon-text="violet">本頁渲染速度：</span><span class="render" neon-text="red"></span>
         <div class="dimmer">
-		<div style="position:absolute; top:50%; margin-top:-16px; left:50%; margin-left:-16px;">
-			<center>
-    	 		<div  neon-con="orange" neon-spinner="true" style="width:32px; height:32px;" ></div>
-     			<p neon-text="orange">讀取資料...</p>
-			</center>
-   		</div>
+			<div style="position:absolute; top:50%; margin-top:-16px; left:50%; margin-left:-16px;">
+				<center>
+					<div  neon-con="orange" neon-spinner="true" style="width:32px; height:32px;" ></div>
+					<p neon-text="orange">讀取資料...</p>
+				</center>
+			</div>
   		</div>
-  <div style="margin: 0; margin-top:100px;" class="ts fluid container">
-   <div class="ts narrow container">
- <div class="ts centered card" neon-con="red" style="width:300px;">
-     <div class="content" neon-con="red">
-         <div class="header" neon-text="orange">關於我</div>
-         <div class="meta" neon-text="blue">
-             @Bear
-         </div>
-         <div class="description">
-             <p neon-text="violet">
-                 職業：魔法熊
-             </p>
-             <p neon-text="violet">
-                 屬性： <span neon-text="green">風</span>, <span neon-text="red">火</span>, <span neon-text="blue">雷</span>, <span neon-text="orange">電</span>
-             </p>
-             <p neon-text="violet">
-                 社交網址： <a neon-text="blue" href="https://www.facebook.com/derrick9006" target="_blank"><i class="facebook square icon"></i></a>
-             </p>
-         </div>
-     </div>
-     <div class="extra content" neon-con="red">
-         <div neon-text="white" class="right floated author">
-             <img neon-con="violet" class="ts circular avatar image" src="/img/derrick.jpg"> 林偉雄
-         </div>
-     </div>
- </div>
-                 
-   </div>
-   <div neon-text="red" class="ts horizontal divider" style="margin-top:50px;"><h1>我的作品</h1></div>
-   <div style="margin:0; margin-top:50px;" class="ts center aligned fluid secondary container">
-    <br>
-    <div class="ts narrow container">
-     <a href="http://derrick.lionfree.net/neon" target="_blank" neon-con="violet" class="ts centered flatted card" style="width:300px;">
-      <div neon-con="violet">
-       <h3 class="ts center aligned icon header">
-        <i neon-text="violet" class="lightning icon"></i>
-        <span neon-text="red">N</span>
-        <span neon-text="orange">E</span>
-        <span neon-text="green">O</span>
-        <span neon-text="blue">N</span>
-        <span> </span>
-        <span neon-text="violet">C</span>
-        <span neon-text="red">S</span>
-        <span neon-text="orange">S</span>
-        <p neon-text="orange" class="sub header">讓世界更明亮</p>
-       </h3>
-      </div>
-      <div neon-con="violet" class="left aligned content">
-       <div neon-text="green" class="description">一款簡單使用的CSS<br>能輕易的讓任何網頁發亮</div>
-      </div>
-     </a>
-    </div>   
-   </div>
-  </body>
+  			<div style="margin: 0; margin-top:100px;" class="ts fluid container">
+				<div class="ts narrow container">
+					<div class="ts centered card" neon-con="red" style="width:300px;">
+						<div class="content" neon-con="red">
+							<div class="header" neon-text="orange">關於我</div>
+							<div class="meta" neon-text="blue">
+								@Bear
+							</div>
+							<div class="description">
+								<p neon-text="violet">
+									職業：魔法熊
+								</p>
+								<p neon-text="violet">
+									屬性： <span neon-text="green">風</span>, <span neon-text="red">火</span>, <span neon-text="blue">雷</span>, <span neon-text="orange">電</span>
+								</p>
+								<p neon-text="violet">
+									社交網址： <a neon-text="blue" href="https://www.facebook.com/derrick9006" target="_blank"><i class="facebook square icon"></i></a>
+								</p>
+							</div>
+						</div>
+						<div class="extra content" neon-con="red">
+							<div neon-text="white" class="right floated author">
+								<img neon-con="violet" class="ts circular avatar image" src="/img/derrick.jpg"> 林偉雄
+							</div>
+						</div>
+					</div>                
+				</div>
+				<div neon-text="red" class="ts horizontal divider" style="margin-top:50px;"><h1>我的作品</h1></div>
+				<div style="margin:0; margin-top:50px;" class="ts center aligned fluid secondary container">
+				<br>
+				<div class="ts narrow container">
+				<a href="http://derrick.lionfree.net/neon" target="_blank" neon-con="violet" class="ts centered flatted card" style="width:300px;">
+					<div neon-con="violet">
+						<h3 class="ts center aligned icon header">
+							<i neon-text="violet" class="lightning icon"></i>
+							<span neon-text="red">N</span>
+							<span neon-text="orange">E</span>
+							<span neon-text="green">O</span>
+							<span neon-text="blue">N</span>
+							<span> </span>
+							<span neon-text="violet">C</span>
+							<span neon-text="red">S</span>
+							<span neon-text="orange">S</span>
+							<p neon-text="orange" class="sub header">讓世界更明亮</p>
+						</h3>
+					</div>
+					<div neon-con="violet" class="left aligned content">
+						<div neon-text="green" class="description">一款簡單使用的CSS<br>能輕易的讓任何網頁發亮</div>
+					</div>
+				</a>
+			</div>   
+		</div>
+	</body>
 </html>
 
 <style>
- .dimmer{position:fixed; top:0; left:0; bottom:0; right:0; background:rgba(0,0,0,.6); z-index:100;}
- html, body{padding:0; margin:0; display:block; overflow-x:hidden;}
- .heart {
-  fill: red;
-  position: relative;
-  top: 5px;
-  width: 80px;
-  animation: pulse 1s ease infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.3);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+ 	.dimmer{position:fixed; top:0; left:0; bottom:0; right:0; background:rgba(0,0,0,.6); z-index:100;}
+ 	html, body{padding:0; margin:0; display:block; overflow-x:hidden;}
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript">

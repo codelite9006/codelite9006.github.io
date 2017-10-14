@@ -18,7 +18,7 @@ arr_pg1.push("https://i.ytimg.com/vi/xIIYt5lcq3A/hqdefault.jpg");
 arr_pg1.push("Shall Never Surrender");
 arr_pg1.push("DMC 4 Soundtrack");
 
-arr_pg1.push(root+"Faded.mp3");
+arr_pg1.push("https://www.dropbox.com/s/t9ryvklv61scdjl/Faded.mp3");
 arr_pg1.push("https://i.ytimg.com/vi/_Qo3SrDQCL4/maxresdefault.jpg");
 arr_pg1.push("Faded");
 arr_pg1.push("Alan Walker");

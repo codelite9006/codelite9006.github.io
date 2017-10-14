@@ -1,3 +1,6 @@
+//song list add here
+//music url, album image, song name, artist
+
 var arr_pg1 = [];
 var root = "file:///sdcard/Download/歌曲/";
 arr_pg1.push(root+"我呸.mp3");

@@ -35,7 +35,7 @@ arr_pg1.push("Justin Bieber");
 arr_pg1.push("http://dl2.djring.com/sd2.djring.com/128/479068/Shape%20of%20You%20-%20Ed%20Sheeran%20(DJJOhAL.Com).mp3");
 arr_pg1.push("https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png");
 arr_pg1.push("I'm The One");
-arr_pg1.push("Ed Sheeran");
+arr_pg1.push("Ed Sheeran"); 
 
 arr_pg1.push("http://dl2.djring.com/sd1.djring.com/128/474895/Cold+Water+-+Major+Lazer+Justin+Bieber%20(DJJOhAL.Com).mp3");
 arr_pg1.push("http://coverlandia.net/sites/default/files/styles/music_artwork_page/public/artworks/music/38711471968021.png");

@@ -58,7 +58,7 @@ arr_pg1.push("Let Me Love You");
 arr_pg1.push("Justin Bieber");
 
 arr_pg1.push("http://tentechaudio.com/application/lagubarat/Charlie%20Puth%20(Feat.%20Selena%20Gomez)%20-%20We%20Don't%20Talk%20Anymore.mp3");
-arr_pg1.push("e3c55503141dfa4a0589939e90e8676a.jpg");
+arr_pg1.push("https://images-na.ssl-images-amazon.com/images/M/MV5BOWQyYmJiOWUtNzkzYS00YWJlLWI5YjgtYTg4MjI0MmM1N2ZkXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_SY300_SX300_AL_.jpg");
 arr_pg1.push("We Don't Talk Anymore");
 arr_pg1.push("Charlie Puth");
 

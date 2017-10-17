@@ -1,0 +1,279 @@
+/**default color*/
+.large.grid.layout.icon,
+.large.retweet.icon,
+.large.random.icon,
+.info.repeat.icon,
+.info.plus.icon{
+color: rgba(94,124,136,1) !important;
+background-color: transparent !important;
+}
+
+.ts.info.large.button, .prog_shadow {
+background-color: rgba(94,124,136,1) !important;
+border-color: rgba(94,124,136,1) !important;
+}
+
+.gridmenu, .ts.large.button{
+background-color: rgba(94,124,136,.8) !important;
+color: #fff !important;
+}
+
+.prog {
+background-color: rgba(94,124,136,.3) !important;
+}
+
+.ts.header, 
+.duration, 
+.large.video.play.icon,
+.large.step.backward.icon,
+.large.step.forward.icon{
+background-color: transparent !important;
+color: #fff !important;
+}
+
+/**indigo color*/
+.large.grid.layout.icon.indigo,
+.large.retweet.icon.indigo,
+.large.random.icon.indigo,
+.info.repeat.icon.indigo,
+.info.plus.icon.indigo{
+color: rgba(63,82,176,1) !important;
+background-color: transparent !important;
+}
+
+.ts.info.large.button.indigo,
+ .prog_shadow.indigo {
+background-color: rgba(63,82,176,1) !important;
+border-color: rgba(63,82,176,1) !important;
+}
+
+.gridmen.indigo,
+ .ts.large.indigo{
+background-color: rgba(63,82,176,.8) !important;
+color: #fff !important;
+}
+
+.prog.indigo, {
+background-color: rgba(63,82,176,.3) !important;
+}
+
+.ts.header.indigo,
+.duration.indigo,
+.large.video.play.indigo,
+.large.step.backward.indigo,
+.large.step.forward.indigo{
+background-color: transparent !important;
+color: #fff !important;
+}
+
+
+/**green color*/
+.large.grid.layout.icon.green,
+.large.retweet.icon.green,
+.large.random.icon.green,
+.info.repeat.icon.green,
+.info.plus.icon.green{
+color: rgba(75,176,80,1) !important;
+background-color: transparent !important;
+}
+
+.ts.info.large.button.green,
+ .prog_shadow.green {
+background-color: rgba(75,176,80,1) !important;
+border-color: rgba(75,176,80,1) !important;
+}
+
+.gridmen.green,
+ .ts.large.green{
+background-color: rgba(75,176,80,.8) !important;
+color: #fff !important;
+}
+
+.prog.green, {
+background-color: rgba(75,176,80,.3) !important;
+}
+
+.ts.header.green,
+.duration.green,
+.large.video.play.green,
+.large.step.backward.green,
+.large.step.forward.green{
+background-color: transparent !important;
+color: #fff !important;
+}
+
+/**pink color*/
+.large.grid.layout.icon.pink,
+.large.retweet.icon.pink,
+.large.random.icon.pink,
+.info.repeat.icon.pink,
+.info.plus.icon.pink{
+color: rgba(241,27,99,1) !important;
+background-color: transparent !important;
+}
+
+.ts.info.large.button.pink,
+ .prog_shadow.pink {
+background-color: rgba(241,27,99,1) !important;
+border-color: rgba(241,27,99,1) !important;
+}
+
+.gridmen.pink,
+ .ts.large.pink{
+background-color: rgba(241,27,99,.8) !important;
+color: #fff !important;
+}
+
+.prog.pink, {
+background-color: rgba(241,27,99,.3) !important;
+}
+
+.ts.header.pink,
+.duration.pink,
+.large.video.play.pink,
+.large.step.backward.pink,
+.large.step.forward.pink{
+background-color: transparent !important;
+color: #fff !important;
+}
+
+/**cyan color*/
+.large.grid.layout.icon.cyan,
+.large.retweet.icon.cyan,
+.large.random.icon.cyan,
+.info.repeat.icon.cyan,
+.info.plus.icon.cyan{
+color: rgba(3,187,215,1) !important;
+background-color: transparent !important;
+}
+
+.ts.info.large.button.cyan,
+ .prog_shadow.cyan {
+background-color: rgba(3,187,215,1) !important;
+border-color: rgba(3,187,215,1) !important;
+}
+
+.gridmen.cyan,
+ .ts.large.cyan{
+background-color: rgba(3,187,215,.8) !important;
+color: #fff !important;
+}
+
+.prog.cyan, {
+background-color: rgba(3,187,215,.3) !important;
+}
+
+.ts.header.cyan,
+.duration.cyan,
+.large.video.play.cyan,
+.large.step.backward.cyan,
+.large.step.forward.cyan{
+background-color: transparent !important;
+color: #fff !important;
+}
+
+/**purple color*/
+.large.grid.layout.icon.purple,
+.large.retweet.icon.purple,
+.large.random.icon.purple,
+.info.repeat.icon.purple,
+.info.plus.icon.purple{
+color: rgba(111,65,196,1) !important;
+background-color: transparent !important;
+}
+
+.ts.info.large.button.purple,
+ .prog_shadow.purple {
+background-color: rgba(111,65,196,1) !important;
+border-color: rgba(111,65,196,1) !important;
+}
+
+.gridmen.purple,
+ .ts.large.purple{
+background-color: rgba(111,65,196,.8) !important;
+color: #fff !important;
+}
+
+.prog.purple, {
+background-color: rgba(111,65,196,.3) !important;
+}
+
+.ts.header.purple,
+.duration.purple,
+.large.video.play.purple,
+.large.step.backward.purple,
+.large.step.forward.purple{
+background-color: transparent !important;
+color: #fff !important;
+}
+
+/**orange color*/
+.large.grid.layout.icon.orange,
+.large.retweet.icon.orange,
+.large.random.icon.orange,
+.info.repeat.icon.orange,
+.info.plus.icon.orange{
+color: rgba(253,85,32,1) !important;
+background-color: transparent !important;
+}
+
+.ts.info.large.button.orange,
+ .prog_shadow.orange {
+background-color: rgba(253,85,32,1) !important;
+border-color: rgba(253,85,32,1) !important;
+}
+
+.gridmen.orange,
+ .ts.large.orange{
+background-color: rgba(253,85,32,.8) !important;
+color: #fff !important;
+}
+
+.prog.orange, {
+background-color: rgba(253,85,32,.3) !important;
+}
+
+.ts.header.orange,
+.duration.orange,
+.large.video.play.orange,
+.large.step.backward.orange,
+.large.step.forward.orange{
+background-color: transparent !important;
+color: #fff !important;
+}
+
+/**blue color*/
+.large.grid.layout.icon.blue,
+.large.retweet.icon.blue,
+.large.random.icon.blue,
+.info.repeat.icon.blue,
+.info.plus.icon.blue{
+color: rgba(44,139,214,1) !important;
+background-color: transparent !important;
+}
+
+.ts.info.large.button.blue,
+ .prog_shadow.blue {
+background-color: rgba(44,139,214,1) !important;
+border-color: rgba(44,139,214,1) !important;
+}
+
+.gridmen.blue,
+ .ts.large.blue{
+background-color: rgba(44,139,214,.8) !important;
+color: #fff !important;
+}
+
+.prog.blue, {
+background-color: rgba(44,139,214,.3) !important;
+}
+
+.ts.header.blue,
+.duration.blue,
+.large.video.play.blue,
+.large.step.backward.blue,
+.large.step.forward.blue{
+background-color: transparent !important;
+color: #fff !important;
+}
+

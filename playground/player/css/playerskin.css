@@ -28,7 +28,7 @@ background-color: rgba(94,124,136,.3) !important;
 .large.step.backward.icon,
 .large.step.forward.icon{
 background-color: transparent !important;
-color: #fff !important;
+color: #fff !important;  
 }
 
 /**indigo color*/

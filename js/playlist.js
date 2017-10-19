@@ -65,4 +65,4 @@ arr_pg1.push("Charlie Puth");
 arr_pg1.push("http://skymaza.com/upload_file/1/3647/3663/3666/Linkin%20Park%20-%20Meteora%20-%2013%20-%20Numb-.mp3");
 arr_pg1.push("https://is4-ssl.mzstatic.com/image/thumb/Features/v4/9a/c2/68/9ac26832-eeb4-3854-0c47-33f3e5c11cc8/dj.xkwgleci.jpg/1200x630bb.jpg");
 arr_pg1.push("Numb");
-arr_pg1.push("Linkin Park");
+arr_pg1.push("Linkin Park"); 

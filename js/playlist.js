@@ -42,11 +42,6 @@ arr_pg1.push("http://coverlandia.net/sites/default/files/styles/music_artwork_pa
 arr_pg1.push("Cold Water");
 arr_pg1.push("Justin Bieber");
 
-arr_pg1.push("http://srv2.teupload.com/Music/Album/Justin%20Bieber%20-%20Purpose%20(Deluxe)/Justin%20Bieber%20-%20Purpose%20(Deluxe)%20128/04%20Sorry.mp3");
-arr_pg1.push("https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/f6/40/c8/f640c8b9-b2f8-905a-9fff-2d38d8bfe35b/UMG_cvrart_00602547587428_01_RGB72_1500x1500_15UMGIM59808.jpg/1200x630bb.jpg");
-arr_pg1.push("Sorry");
-arr_pg1.push("Justin Bieber");
-
 arr_pg1.push("http://tegos.kz/new/mp3_full/Clean_Bandit_-_Rockabye.mp3");
 arr_pg1.push("https://img.discogs.com/wnJDCY_xI9BtICDCOq9oJx6e66c=/fit-in/600x520/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9444679-1480705235-2916.jpeg.jpg");
 arr_pg1.push("Rockabye");

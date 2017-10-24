@@ -51,30 +51,24 @@ arr_pg1.push("Cold Water");
 arr_pg1.push("Justin Bieber");
 
 arr_pg1.push("1009");
-arr_pg1.push("http://srv2.teupload.com/Music/Album/Justin%20Bieber%20-%20Purpose%20(Deluxe)/Justin%20Bieber%20-%20Purpose%20(Deluxe)%20128/04%20Sorry.mp3");
-arr_pg1.push("https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/f6/40/c8/f640c8b9-b2f8-905a-9fff-2d38d8bfe35b/UMG_cvrart_00602547587428_01_RGB72_1500x1500_15UMGIM59808.jpg/1200x630bb.jpg");
-arr_pg1.push("Sorry");
-arr_pg1.push("Justin Bieber");
-
-arr_pg1.push("1010");
 arr_pg1.push("http://tegos.kz/new/mp3_full/Clean_Bandit_-_Rockabye.mp3");
 arr_pg1.push("https://img.discogs.com/wnJDCY_xI9BtICDCOq9oJx6e66c=/fit-in/600x520/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9444679-1480705235-2916.jpeg.jpg");
 arr_pg1.push("Rockabye");
 arr_pg1.push("Clean Bandit");
 
-arr_pg1.push("1011");
+arr_pg1.push("1010");
 arr_pg1.push("http://dl2.djring.com/sd1.djring.com/128/479065/Let+Me+Love+You+-+DJ+Snake+Ft+Justin+Bieber%20(DJJOhAL.Com).mp3");
 arr_pg1.push("http://media.socastsrm.com/wordpress/wp-content/blogs.dir/69/files/2016/07/bieber.jpg");
 arr_pg1.push("Let Me Love You");
 arr_pg1.push("Justin Bieber");
 
-arr_pg1.push("1012");
+arr_pg1.push("1011");
 arr_pg1.push("http://tentechaudio.com/application/lagubarat/Charlie%20Puth%20(Feat.%20Selena%20Gomez)%20-%20We%20Don't%20Talk%20Anymore.mp3");
 arr_pg1.push("https://images-na.ssl-images-amazon.com/images/M/MV5BOWQyYmJiOWUtNzkzYS00YWJlLWI5YjgtYTg4MjI0MmM1N2ZkXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_SY300_SX300_AL_.jpg");
 arr_pg1.push("We Don't Talk Anymore");
 arr_pg1.push("Charlie Puth");
 
-arr_pg1.push("1013");
+arr_pg1.push("1012");
 arr_pg1.push("http://skymaza.com/upload_file/1/3647/3663/3666/Linkin%20Park%20-%20Meteora%20-%2013%20-%20Numb-.mp3");
 arr_pg1.push("https://is4-ssl.mzstatic.com/image/thumb/Features/v4/9a/c2/68/9ac26832-eeb4-3854-0c47-33f3e5c11cc8/dj.xkwgleci.jpg/1200x630bb.jpg");
 arr_pg1.push("Numb");

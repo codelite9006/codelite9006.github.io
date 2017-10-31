@@ -51,3 +51,15 @@ arr_pg1.push(root+"First Love.mp3");
 arr_pg1.push(art+"宇多田光.jpg");
 arr_pg1.push("First Love");
 arr_pg1.push("宇多田光");
+
+arr_pg1.push("1009");
+arr_pg1.push(root+"下雪.mp3");
+arr_pg1.push(art+"阿杜.jpg");
+arr_pg1.push("下雪");
+arr_pg1.push("阿杜");
+
+arr_pg1.push("1010");
+arr_pg1.push(root+"心痛.mp3");
+arr_pg1.push(art+"陳潔儀.jpg");
+arr_pg1.push("心痛");
+arr_pg1.push("陳潔儀");

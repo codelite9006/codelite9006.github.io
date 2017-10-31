@@ -2,7 +2,7 @@
 //music url, album image, song name, artist 
 var arr_pg1 = [];
 var root = "file:///sdcard/Download/歌曲/";
-var art = "file:///sdcard/Download/歌曲/照片";
+var art = "file:///sdcard/Download/歌曲/照片/";
 
 arr_pg1.push("1001");
 arr_pg1.push(root+"大藝術家.mp3");

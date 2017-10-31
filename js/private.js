@@ -27,3 +27,27 @@ arr_pg1.push(root+"我呸.mp3");
 arr_pg1.push(art+"蔡依林.jpg");
 arr_pg1.push("我呸");
 arr_pg1.push("蔡依林");
+
+arr_pg1.push("1005");
+arr_pg1.push(root+"濫好人.mp3");
+arr_pg1.push(art+"陳威全.jpg");
+arr_pg1.push("濫好人");
+arr_pg1.push("陳威全");
+
+arr_pg1.push("1006");
+arr_pg1.push(root+"見えない星.mp3");
+arr_pg1.push(art+"中島美嘉.jpg");
+arr_pg1.push("見えない星");
+arr_pg1.push("中島美嘉");
+
+arr_pg1.push("1007");
+arr_pg1.push(root+"瞳をとじて 輕閉雙眼.mp3");
+arr_pg1.push(art+"平井堅.jpg");
+arr_pg1.push("瞳をとじて 輕閉雙眼");
+arr_pg1.push("平井堅");
+
+arr_pg1.push("1008");
+arr_pg1.push(root+"First Love.mp3");
+arr_pg1.push(art+"宇多田光.jpg");
+arr_pg1.push("First Love");
+arr_pg1.push("宇多田光");

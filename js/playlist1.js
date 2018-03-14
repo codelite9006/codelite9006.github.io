@@ -7,11 +7,6 @@ arr_pg1.push("https://upload.wikimedia.org/wikipedia/en/d/da/Alan_Walker_-_Faded
 arr_pg1.push("Faded");
 arr_pg1.push("Alan Walker");
 
-arr_pg1.push("http://dl.20track.ir/mahdi/Album2/MARS2017/Charlie%20Puth%20-%20Attention%20-%20MP3%20128.mp3");
-arr_pg1.push("http://youth.newagebd.net/wordpress/wp-content/uploads/2017/05/Song.gif");
-arr_pg1.push("Attention");
-arr_pg1.push("Charlie Puth");
-
 arr_pg1.push("http://tegos.kz/new/mp3_full/Sia_-_Cheap_Thrills.mp3");
 arr_pg1.push("https://i.pinimg.com/736x/3d/c0/c1/3dc0c120a6cfa21db550b28e08357431--maddie-ziegler-tim-beta.jpg");
 arr_pg1.push("Cheap Thrills");
@@ -56,8 +51,3 @@ arr_pg1.push("http://tentechaudio.com/application/lagubarat/Charlie%20Puth%20(Fe
 arr_pg1.push("https://images-na.ssl-images-amazon.com/images/M/MV5BOWQyYmJiOWUtNzkzYS00YWJlLWI5YjgtYTg4MjI0MmM1N2ZkXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_SY300_SX300_AL_.jpg");
 arr_pg1.push("We Don't Talk Anymore");
 arr_pg1.push("Charlie Puth");
-
-arr_pg1.push("http://skymaza.com/upload_file/1/3647/3663/3666/Linkin%20Park%20-%20Meteora%20-%2013%20-%20Numb-.mp3");
-arr_pg1.push("https://is4-ssl.mzstatic.com/image/thumb/Features/v4/9a/c2/68/9ac26832-eeb4-3854-0c47-33f3e5c11cc8/dj.xkwgleci.jpg/1200x630bb.jpg");
-arr_pg1.push("Numb");
-arr_pg1.push("Linkin Park"); 
